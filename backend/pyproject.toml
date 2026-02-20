@@ -1,0 +1,9 @@
+[project]
+name = "backend-service"
+version = "0.1.0"
+dependencies = [
+    "fastapi",
+    "uvicorn"
+]
+
+[tool.uv]
