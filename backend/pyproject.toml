@@ -9,7 +9,8 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = [
-    "pytest"
+    "pytest",
+    "httpx"
 ]
 
 [tool.uv]
