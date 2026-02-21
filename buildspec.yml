@@ -7,7 +7,7 @@ phases:
     commands:
       - pip install uv
       - cd backend
-      - uv sync --extra dev
+      - uv sync --all-groups
 
   build:
     commands:
