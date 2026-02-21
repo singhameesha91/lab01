@@ -7,8 +7,8 @@ phases:
     commands:
       - pip install uv
       - cd backend
-      - uv sync --no-dev
-      - pip install pytest
+      - uv sync
+
   build:
     commands:
-      - pytest
+      - uv run pytest
