@@ -5,9 +5,9 @@ phases:
     runtime-versions:
       python: 3.12
     commands:
-      - pip install uv
+      - pip install uv1
       - cd backend
-      - uv sync --all-groups
+      - uv sync --extra dev
 
   build:
     commands:
